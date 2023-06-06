@@ -14,4 +14,4 @@ print_r("Montant en francs : $francs <br />");
 print_r("Montant en Euros : " . round($euros, 2));
 
 
-?>
+?> 

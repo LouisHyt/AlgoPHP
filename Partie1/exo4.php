@@ -13,7 +13,7 @@ $sentenceReverse = strrev($sentenceFormat);
 if ($sentenceFormat == $sentenceReverse) {
     print_r("La phrase \"$sentence\" est palindrome");
 } else {
-    print_r("La phrase \"$sentence\" n'est pas palindrome");
+    print_r("La phrase \"$sentence\" n'est pas palindrome"); 
 }
 
 

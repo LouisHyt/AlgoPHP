@@ -16,6 +16,6 @@
 
     echo($p1infos['surname'] . " " . $p1infos['name'] . " a " . $p1infos['age'][0]. " ans" );
     echo("<br />");
-    echo($p2infos['surname'] . " " . $p2infos['name'] . " a " . $p2infos['age'][0]. " ans" );
+    echo($p2infos['surname'] . " " . $p2infos['name'] . " a " . $p2infos['age'][0]. " ans" ); 
 
 ?>

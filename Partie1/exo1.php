@@ -9,4 +9,4 @@
 $sentence = "Notre formation DL commence aujourd'hui";
 $charCount = strlen($sentence);
 print_r("La phrase fait  $charCount caractères");
-?>
+?> 

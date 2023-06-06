@@ -15,4 +15,4 @@
 
     echo("Sa moyenne générale est donc de :" . round($moyenne, 2))
 
-?>
+?> 

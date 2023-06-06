@@ -9,4 +9,4 @@
 $sentence = "Notre formation DL commence aujourd'hui";
 $wordCount = str_word_count($sentence);
 print_r("La phrase \"$sentence\" contient  $wordCount mots");
-?>
+?> 

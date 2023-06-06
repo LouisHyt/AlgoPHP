@@ -32,7 +32,7 @@
   print_r("Rendue de monnaie: <br />");
   if($ten > 0){
     print_r("$ten billets de 10€");
-  }
+  } 
   if($five > 0){
     print_r(" - $five billets de 5€");
   }

@@ -16,7 +16,7 @@
         }
         return $str;
     }
-
+ 
     echo(get_table_alternative(4));
 
     //Solution 2

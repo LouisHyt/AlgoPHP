@@ -10,7 +10,7 @@
 $article_price = 9.99;
 $quantity = 5;
 $taux = 0.2;
-
+ 
 $tva = ($article_price * $quantity) * $taux;
 $final = ($article_price * $quantity) + $tva;
 

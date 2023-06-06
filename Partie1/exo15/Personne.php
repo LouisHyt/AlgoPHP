@@ -18,7 +18,7 @@ class Personne {
             "name" => $this->name,
             "surname" => $this->surname,
             "age" => $this->getAge()
-        ];
+        ]; 
     }
 
     private function getAge(){

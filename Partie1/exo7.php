@@ -9,7 +9,7 @@
 
     $age_input = 15;
     $category;
-
+ 
     //Méthode optimale
     switch(true){
         case $age_input >=12 :

@@ -9,4 +9,4 @@
 $sentence = "Notre formation DL commence aujourd'hui";
 $newSentence = str_replace("aujourd'hui", "demain", $sentence);
 print_r($newSentence);
-?>
+?> 

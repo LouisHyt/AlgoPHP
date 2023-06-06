@@ -23,7 +23,7 @@
     "FRA" => "Bonjour",
     "ITA" => "Buongiorno",
     "GER" => "Guten Tag",
-  ];
+  ]; 
 
   foreach ($peoples as $people => $language) {
     $traduction = $langs[$language];

@@ -22,6 +22,6 @@
 
     print_r("La personne n'est pas imposable.")
 
-
+ 
 
 ?>
