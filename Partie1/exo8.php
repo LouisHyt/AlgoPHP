@@ -12,12 +12,12 @@
         print_r("Table de $nb : <br />");
         $str = '';
         for($i = 1; $i <= 10; $i++){
-            $str += "$i x $nb = ". $i * $nb . "<br />";
+            $str .= "$i x $nb = ". $i * $nb . "<br />";
         }
         return $str;
     }
  
-    echo(get_table_alternative(4));
+    echo get_table_alternative(4);
 
     //Solution 2
     function get_table_alternative($nb){
