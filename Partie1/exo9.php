@@ -11,13 +11,11 @@
 
     print_r("Age: $age_input <br />");
     print_r("Sexe: $sexe_input <br />");
-    
-    if($age_input >= 18 && $age_input <= 35 && $sexe_input == 'F'){
-        print_r("La personne est imposable.");
-        return;
-    }
 
-    if($age_input > 20 && $sexe_input !== 'F'){
+    $condition1 = $age_input >= 18 && $age_input <= 35 && $sexe_input == 'F';
+    $condition2 = $age_input > 20 && $sexe_input !== 'F';
+    
+    if($condition1 || $condition2){
         print_r("La personne est imposable.");
         return;
     }

@@ -7,21 +7,25 @@
 
 <?php
 
-    $age_input = 11;
+    $age_input = 15;
     $category;
 
-    if($age_input >= 6 && $age_input <= 7){
-        $category = "Poussin";
+    //Méthode optimale
+    switch(true){
+        case $age_input >=12 :
+            $category= "Cadet";
+            break;
+        case $age_input >=10 :
+            $category= "Minime";
+            break;
+        case $age_input >=8 :
+            $category= "Pupille";
+            break;
+        case $age_input >=6 :
+            $category= "Poussin";
+            break;
     }
-    if($age_input >= 8 && $age_input <= 9){
-        $category = "Pupille";
-    }
-    if($age_input >= 10 && $age_input <= 11){
-        $category = "Minime";
-    }
-    if($age_input >= 12){
-        $category = "Cadet";
-    }
+
 
     if(isset($category)){
         print_r("L'enfant qui a $age_input ans appartient à la catégorie $category");
