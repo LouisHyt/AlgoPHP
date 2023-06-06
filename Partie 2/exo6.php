@@ -10,16 +10,15 @@
 $elements = array("Monsieur","Madame","Mademoiselle");
 
 function alimenterListeDeroulante($elements){
-    $options = '';
+    $options = "<select name='selection'>";
     foreach($elements as $option){
         $options .= "<option value='".strtolower($option)."'>$option</option>";
     }
 
-    return "
-        <select name='selection'>
-            $options
-        </select>";
+    $options .= "</select>";
+    
+    return $options;
 }
-
-echo(alimenterListeDeroulante($elements));
+    echo(alimenterListeDeroulante($elements));
+    
 ?>
