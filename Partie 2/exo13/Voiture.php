@@ -6,6 +6,7 @@ class Voiture {
     private string $model;
     private int $door_nb;
     private int $actual_speed;
+    private bool $isMotorOn;
 
     function __construct(string $brand, string $model, string $door_nb){
         $this->brand = $brand;
